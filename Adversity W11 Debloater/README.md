@@ -48,25 +48,6 @@ Pick and choose individual tweaks:
 ### 5. **Revert/Undo** 🔄
 Attempt to restore removed apps and services
 
-## 🚀 Quick Start
-
-### Option A: Run Locally
-```powershell
-# Right-click PowerShell > Run as Administrator
-cd "C:\Users\YourName\Documents\Projects\SkyLite-Debloat"
-powershell -ExecutionPolicy Bypass -File .\Adversity-W11-Debloater.ps1
-```
-
-### Option B: Direct Run (Future online version)
-```powershell
-irm "https://raw.githubusercontent.com/YourRepo/SkyLite-Debloat/main/SkyLite-Debloat.ps1" | iex
-```
-
-### Option C: One-Liner (with parameters)
-```powershell
-powershell -ExecutionPolicy Bypass -NoProfile -File "C:\path\to\SkyLite-Debloat.ps1" -NoPrompt
-```
-
 ## 📊 What Gets Changed
 
 ### Apps Removed (Performance Mode)
@@ -98,12 +79,6 @@ powershell -ExecutionPolicy Bypass -NoProfile -File "C:\path\to\SkyLite-Debloat.
 - Animations disabled (Potato mode)
 - OneDrive shortcuts removed
 
-## 📝 Logging
-
-After each run, a detailed log is saved to:
-```
-%TEMP%\SkyLite-Debloat-YYYYMMDD-HHMMSS.log
-```
 
 Contains:
 - All apps removed
@@ -126,7 +101,7 @@ Contains:
 ### Testing Recommendations
 1. **Create restore point first**:
    ```powershell
-   Checkpoint-Computer -Description "Before SkyLite Debloat"
+   Checkpoint-Computer -Description "Before Adversity Debloat"
    ```
 
 2. **Start with "Useless Apps Only" mode** if unsure
@@ -161,7 +136,7 @@ Kill the process: `Stop-Process -Name OneDrive -Force` then retry.
 ## 📚 Code Structure
 
 ```
-SkyLite-Debloat.ps1
+Adversity-Debloat.ps1
 ├── Global Variables
 ├── Utility Functions
 │   ├── Write-Log
@@ -220,13 +195,13 @@ Average user reports:
 
 ## 🔗 Links
 
-- **Project Page**: [SkyLite-Debloat](https://github.com/YourUsername/SkyLite-Debloat)
+- **Project Page**: [Adversity-Debloat](https://github.com/YourUsername/Adversity-Debloat)
 - **Report Bug**: `Issues` tab
 - **Discuss**: `Discussions` tab
 
 ---
 
-**Last Updated**: 2026-10-XX  
+**Last Updated**: 2026-3-21
 **Tested On**: Windows 11 24H2/25H2  
 **PowerShell Version**: 5.0+  
 
