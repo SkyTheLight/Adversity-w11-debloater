@@ -1,0 +1,136 @@
+{
+    "Version": "3.0",
+    "Settings": [
+        {
+            "Name": "CreateRestorePoint",
+            "Value": true
+        },
+        {
+            "Name": "DisableTelemetry",
+            "Value": true
+        },
+        {
+            "Name": "DisableSuggestions",
+            "Value": true
+        },
+        {
+            "Name": "DisableEdgeAds",
+            "Value": true
+        },
+        {
+            "Name": "DisableLockscreenTips",
+            "Value": true
+        },
+        {
+            "Name": "DisableBing",
+            "Value": true
+        },
+        {
+            "Name": "DisableStoreSearchSuggestions",
+            "Value": true
+        },
+        {
+            "Name": "DisableSearchHighlights",
+            "Value": true
+        },
+        {
+            "Name": "DisableCopilot",
+            "Value": true
+        },
+        {
+            "Name": "DisableRecall",
+            "Value": true
+        },
+        {
+            "Name": "DisableClickToDo",
+            "Value": true
+        },
+        {
+            "Name": "DisableAISvcAutoStart",
+            "Value": true
+        },
+        {
+            "Name": "DisableWidgets",
+            "Value": true
+        },
+        {
+            "Name": "HideChat",
+            "Value": true
+        },
+        {
+            "Name": "ShowKnownFileExt",
+            "Value": true
+        },
+        {
+            "Name": "DisableDragTray",
+            "Value": true
+        },
+        {
+            "Name": "DisableFastStartup",
+            "Value": true
+        },
+        {
+            "Name": "Hide3dObjects",
+            "Value": true
+        },
+        {
+            "Name": "DisableModernStandbyNetworking",
+            "Value": true
+        },
+        {
+            "Name": "DisableActivityHistory",
+            "Value": true
+        },
+        {
+            "Name": "DisableHibernation",
+            "Value": true
+        },
+        {
+            "Name": "DisableConsumerFeatures",
+            "Value": true
+        },
+        {
+            "Name": "DisableGameDVR",
+            "Value": true
+        },
+        {
+            "Name": "DisableLocationServices",
+            "Value": false
+        },
+        {
+            "Name": "DisableFindMyDevice",
+            "Value": false
+        }
+    ],
+    "Presets": {
+        "Standard": [
+            "DisableActivityHistory",
+            "DisableConsumerFeatures",
+            "DisableTelemetry",
+            "DisableGameDVR",
+            "DisableSuggestions",
+            "DisableBing",
+            "DisableWidgets",
+            "HideChat",
+            "ShowKnownFileExt",
+            "DisableDragTray"
+        ],
+        "Minimal": [
+            "DisableTelemetry",
+            "DisableConsumerFeatures"
+        ],
+        "Utility": [
+            "DisableActivityHistory",
+            "DisableTelemetry",
+            "DisableSuggestions",
+            "DisableBing",
+            "DisableWidgets",
+            "HideChat",
+            "ShowKnownFileExt",
+            "DisableDragTray",
+            "DisableGameDVR",
+            "DisableLocationServices",
+            "DisableFindMyDevice"
+        ]
+    }
+}
